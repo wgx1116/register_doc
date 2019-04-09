@@ -22,7 +22,7 @@
 
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
-| timeExpire | int | 1 | 过期时间，毫秒时间戳 |
+| timeExpire | int | 1 | 过期时间，时间戳 |
 | qrCode | int | 1 | 支付二维码url |
 | payOrder | object | 1 | 支付订单 |
 
