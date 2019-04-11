@@ -10,7 +10,7 @@
 
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
-| class | int | 0 | 班级id |
+| class | int | 1 | 班级id |
 | phone | string | 1 | 手机号码 |
 | name | string | 1 | 姓名 |
 | gender | int | 1 | 性别(1:男, 2:女) |
