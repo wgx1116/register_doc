@@ -10,9 +10,10 @@
 
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
+| class | int | 0 | 班级id |
+| phone | string | 1 | 手机号码 |
 | name | string | 1 | 姓名 |
 | gender | int | 1 | 性别(1:男, 2:女) |
-| phone | string | 1 | 手机号码 |
 | addr | string | 1 | 地址 |
 | buMen | string | 1 | 部门 |
 | zhiWu | string | 1 | 职务 |
@@ -26,7 +27,6 @@
 | bank | string | 1 | 开户银行 |
 | bankAccount | string | 1 | 开户银行账号 |
 | zhiCheng | string | 1 | 职称 |
-| banCi | string | 1 | 班次 |
 
 ## 响应参数
 
