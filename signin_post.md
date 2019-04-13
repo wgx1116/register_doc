@@ -10,13 +10,11 @@
 
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
+| class | int | 1 | 班级id |
+| phone | string | 1 | 手机号码 |
 | name | string | 1 | 姓名 |
 | gender | int | 1 | 性别(1:男, 2:女) |
-| phone | string | 1 | 手机号码 |
 | danWeiName | string | 0 | 单位名称 |
-| banCi | string | 1 | 班次 |
-| isPay | 0-1 | 1 | 是否已缴费(0:否, 1:是) |
-| payToken | string | 0 | 缴费票据 |
 
 ## 响应参数
 
@@ -26,6 +24,13 @@
 ## 请求示例
 
 ```
+{
+    "class": 2,
+    "phone": "15623967785",
+    "name": "汪国新",
+    "gender": 1,
+    "danWeiName": "xxx"
+}
 ```
 
 ## 响应示例
