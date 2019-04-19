@@ -13,3 +13,5 @@
 * 尽量使用驼峰写法返回响应数据
 * 除非另外说明，Response Status Code = 200, 正常
 * 除非另外说明，Response Status Code >= 400, 出错了。出错时，如果服务器使用 `application/json` 返回响应数据，那么需要返回 `msg` 字段表示出错的原因；否则认为服务器错误
+* Response Status Code == 430, 请登录
+* Response Status Code == 440, 给 {{phone}} 发送 {{type}} 类型的短信已超过今天的限制
