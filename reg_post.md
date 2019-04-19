@@ -4,16 +4,16 @@
 
 |  Auth  |  Method  |  url  |
 | :----  | :----:   | :---- |
-|  NONE  |  POST  |  /reg  |
+|  Login  |  POST  |  /reg  |
 
 ## 请求参数
 
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
 | class | int | 1 | 班级id |
-| phone | string | 1 | 手机号码 |
 | name | string | 1 | 姓名 |
 | gender | int | 1 | 性别(1:男, 2:女) |
+| phone | string | 1 | 手机号码 |
 | zhiWu | string | 0 | 职务 |
 | zhuSu | 0-1 | 1 | 是否住宿(0:否, 1:是) |
 | danWeiName | string | 1 | 单位名称 |
@@ -36,13 +36,13 @@
 ```
 {
     "class": 2,
-    "phone": "15623967785",
     "name": "汪国新",
     "gender": 1,
+    "phone": "15623967785",
     "zhiWu": "",
     "zhuSu": 0,
     "danWeiName": "xxx",
-    "danWeiAddr": "",
+    "danWeiAddr": "yyy",
     "invoice": 0,
     "invoiceType": 0,
     "invoiceTitle": "",
@@ -58,6 +58,27 @@
 ```
 {
     "code": 200,
-    "msg": "success"
+    "data": {
+        "id": "13",
+        "createDt": "2019-04-19 23:26:58",
+        "classId": "2",
+        "uid": "1",
+        "name": "汪国新",
+        "gender": "1",
+        "phone": "15623967785",
+        "zhuSu": "0",
+        "zhiWu": "",
+        "danWeiName": "xxx",
+        "danWeiAddr": "yyy",
+        "invoice": "0",
+        "invoiceType": "0",
+        "invoiceTitle": null,
+        "taxNum": null,
+        "bank": null,
+        "bankAccount": null,
+        "zhiCheng": "",
+        "totalFee": "0.00",
+        "payMoney": "0.00"
+    }
 }
 ```
