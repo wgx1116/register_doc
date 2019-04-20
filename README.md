@@ -13,6 +13,7 @@
 | [pay_result.md](/pay_result.md) | 支付结果 |
 | [login_sendphonecode.md](/login_sendphonecode.md) | 发送登录手机短信验证码 |
 | [login_post.md](/login_post.md) | 登录 |
+| [class_spec.md](/class_spec.md) | 班级信息字段说明 |
 | [reglog_spec.md](/reglog_spec.md) | 报名信息字段说明 |
 | [reg_post.md](/reg_post.md) | 提交报名数据 |
 | [signin_post.md](/signin_post.md) | 提交签到数据 |
