@@ -4,7 +4,7 @@
 
 |  Auth  |  Method  |  url  |
 | :----  | :----:   | :---- |
-|  NONE  |  GET  |  /pay  |
+|  Login  |  GET  |  /pay  |
 
 ## 请求参数
 
@@ -30,11 +30,26 @@
 ## 请求示例
 
 ```
-
+GET /pay?paytype=wxpay&business=register&bid=20
 ```
 
 ## 响应示例
 
 ```
-
+{
+    "code": 200,
+    "data": {
+        "timeExpire": 1555761995,
+        "qrCode": "weixin://wxpay/bizpayurl?pr=XBdZpSH",
+        "payOrder": {
+            "createDt": "2019-04-20 18:06:35",
+            "uid": 1,
+            "business": "register",
+            "bid": 20,
+            "amount": 0.01,
+            "payType": "wxpay",
+            "id": "5"
+        }
+    }
+}
 ```
