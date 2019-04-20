@@ -4,7 +4,7 @@
 
 |  Auth  |  Method  |  url  |
 | :----  | :----:   | :---- |
-|  NONE  |  GET  |  /pay/result  |
+|  Login  |  GET  |  /pay/result  |
 
 ## 请求参数
 
@@ -25,11 +25,30 @@
 ## 请求示例
 
 ```
-
+GET /pay/result?id=5
 ```
 
 ## 响应示例
 
 ```
-
+{
+    "code": 200,
+    "data": {
+        "success": 0,
+        "payOrder": {
+            "id": "5",
+            "createDt": "2019-04-20 18:06:35",
+            "uid": "1",
+            "business": "register",
+            "bid": "20",
+            "amount": "0.01",
+            "payType": "wxpay",
+            "payFirstNotifyDt": null,
+            "paySuccessDt": null,
+            "payDt": null,
+            "refundRequestDt": null,
+            "refundDoneDt": null
+        }
+    }
+}
 ```
