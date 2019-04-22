@@ -9,10 +9,10 @@
 |  business  |  string  |  业务  |
 |  bid  |  int  |  和业务对应的id  |
 |  amount  |  float  |  支付订单金额  |
-|  payType  |  string  |  支付类型(alipay:支付宝支付, wxpay:微信支付)  |
+|  payType  |  string  |  支付类型(alipay:支付宝支付, wxpay:微信支付, wxpay_mweb:微信支付h5支付)  |
 |  prePayId  |  string  |  预支付交易会话标志  |
-|  qrCodeUrl  |  string  |  支付二维码链接  |
-|  prePayExpireDt  |  string  |  预支付交易过期时间,即支付二维码链接过期时间  |
+|  payUri  |  string  |  支付链接(alipay:支付二维码链接, wxpay:支付二维码链接, wxpay_mweb:支付跳转链接)  |
+|  prePayExpireDt  |  string  |  预支付交易过期时间,即支付二维码链接或支付跳转链接过期时间  |
 |  payFirstNotifyDt  |  string  |  第1次收到支付回调通知时间  |
 |  payFirstLog  |  string  |  json格式,记录第1次收到支付回调通知信息的快照  |
 |  paySuccessDt  |  string  |  我方成功处理支付回调通知的时间  |

@@ -10,7 +10,7 @@
 
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
-| paytype | string | 0 | 支付类型(alipay:支付宝支付, wxpay:微信支付) 默认 alipay |
+| paytype | string | 0 | 支付类型(alipay:支付宝支付, wxpay:微信支付, wxpay_mweb:微信支付h5支付) 默认 alipay |
 | business | string | 1 | 业务(register:报名登记) |
 | bid | string | 0 | 业务对应的id, () 不用传 |
 | amount | float | 0 | 金额, (register) 不用传 |
@@ -30,7 +30,7 @@
 |  payOrder.bid  |  int  |  1  |  |
 |  payOrder.amount  |  float  |  1  |  |
 |  payOrder.payType  |  string  |  1  |  |
-|  payOrder.qrCodeUrl  |  string  |  1  |  |
+|  payOrder.payUri  |  string  |  1  |  |
 |  payOrder.prePayExpireDt  |  string  |  1  |  |
 |  payOrder.payFirstNotifyDt  |  string  |  0  |  |
 |  payOrder.paySuccessDt  |  string  |  1  |  |
@@ -59,7 +59,7 @@ GET /pay?paytype=wxpay&business=register&bid=16
             "bid": "16",
             "amount": "0.01",
             "payType": "wxpay",
-            "qrCodeUrl": "weixin://wxpay/bizpayurl?pr=6NgT89j",
+            "payUri": "weixin://wxpay/bizpayurl?pr=6NgT89j",
             "prePayExpireDt": "2019-04-22 14:04:47",
             "payFirstNotifyDt": null,
             "paySuccessDt": null,
