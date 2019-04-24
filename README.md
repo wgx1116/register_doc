@@ -22,10 +22,10 @@
 |  Login  |  GET  |  /danweipay/detail  |  refer [dan_wei_pay_detail.md](/dan_wei_pay_detail.md)  |
 |  Login  |  GET  |  /signin  |  签到页  |
 |  Login  |  POST  |  /signin  |  refer [signin_post.md](/signin_post.md)  |
-|  Login  |  GET  |  /signin/detail  |  签到详情,Query Parameter(id:签到id)  |
+|  Login  |  GET  |  /signin/detail  |  签到详情页,Query Parameter(id:签到id)  |
 |  Login  |  GET  |  /invoice/apply  |  发票申请页  |
 |  Login  |  GET  |  /invoice/apply  |  refer [invoice_apply_post.md](/invoice_apply_post.md)  |
-|  Login  |  GET  |  /invoice/apply/detail  |  发票申请详情, Query Parameter(id:发票申请id)  |
+|  Login  |  GET  |  /invoice/apply/detail  |  发票申请详情页, Query Parameter(id:发票申请id)  |
 
 # Index
 
