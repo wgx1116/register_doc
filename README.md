@@ -18,4 +18,5 @@
 | [reg_post.md](/reg_post.md) | 提交报名数据 |
 | [reg_detail.md](/reg_detail.md) | 报名详情页 |
 | [signin_post.md](/signin_post.md) | 提交签到数据 |
+| [dan_wei_pay_spec.md](/dan_wei_pay_spec.md) | 单位缴费信息字段说明 |
 | [dan_wei_pay_post.md](/dan_wei_pay_post.md) | 提交单位缴费订单 |
