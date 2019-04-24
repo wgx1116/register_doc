@@ -13,7 +13,7 @@
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
 | id | int | 1 | 报名id |
-| page | string | 0 | 要展示的页面(detail:详情页面, pay_qrcode: 报名费二维码支付页面), 默认page=detail  |
+| page | string | 0 | 要展示的页面(detail:详情页面, pay_qrcode: 报名费二维码支付页面, pay_success:支付报名费成功页面), 默认page=detail  |
 
 ## 响应参数
 
