@@ -11,9 +11,9 @@
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
 | paytype | string | 0 | 支付类型(alipay:支付宝支付, wxpay:微信支付, wxpay_mweb:微信支付h5支付) 默认 alipay |
-| business | string | 1 | 业务(register:报名登记) |
+| business | string | 1 | 业务(register:报名登记, danweipay:单位缴费) |
 | bid | string | 0 | 业务对应的id, () 不用传 |
-| amount | float | 0 | 金额, (register) 不用传 |
+| amount | float | 0 | 金额, (register,danweipay) 不用传 |
 
 
 ## 响应参数
