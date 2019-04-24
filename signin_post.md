@@ -18,8 +18,19 @@
 
 ## 响应参数
 
+> 除非另外说明，否则响应字段的意思请 refer [signin_spec.md](/signin_spec.md) 中同名字段
+
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
+|  id  |  int  |  1  |  |
+|  createDt  |  string  |  1  |  |
+|  classId  |  int  |  1  |  |
+|  uid  |  int  |  1  |  |
+|  name  |  string  |  1  |  |
+|  gender  |  int  |  1  |  |
+|  phone  |  string  |  1  |  |
+|  danWeiName  |  string  |  1  |  |
+|  faZiLiaoDt  |  string  |  0  |  |
 
 ## 请求示例
 
@@ -38,6 +49,15 @@
 ```
 {
     "code": 200,
-    "msg": "success"
+    "data": {
+        "createDt": "2019-04-24 16:39:23",
+        "classId": 2,
+        "uid": 1,
+        "name": "汪国新",
+        "gender": 1,
+        "phone": "15623967785",
+        "danWeiName": "xxx",
+        "id": "13"
+    }
 }
 ```
