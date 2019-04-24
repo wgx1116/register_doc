@@ -6,26 +6,26 @@
 
 |  Auth  |  Method  |  url  |  说明  |
 | :----  | :----:   | :---- | :---- |
-|  NONE  |  GET  |  /  |  首页  |
+|  NONE  |  GET  |  /  |  首页 `index.html.php`  |
 |  NONE  |  POST  |  /login/sendphonecode  |  refer [login_sendphonecode.md](/login_sendphonecode.md)  |
-|  NONE  |  GET  |  /login  |  登录页  |
+|  NONE  |  GET  |  /login  |  登录页 `login.html.php`  |
 |  NONE  |  POST  |  /login  |  refer [login_post.md](/login_post.md)  |
 |  Login  |  DELETE  |  /logout  |  退出  |
-|  Login  |  GET  |  /me  |  我的 页  |
+|  Login  |  GET  |  /me  |  我的 页 `me.html.php`  |
 |  Login  |  GET  |  /pay  |  refer [pay.md](/pay.md)  |
 |  Login  |  GET  |  /pay/result  |  refer [pay_result.md](/pay_result.md)  |
-|  Login  |  GET  |  /reg  |  报名登记页  |
+|  Login  |  GET  |  /reg  |  报名登记页 `register.html.php` |
 |  Login  |  POST  |  /reg  |  refer [reg_post.md](/reg_post.md)  |
 |  Login  |  GET  |  /reg/detail  |  refer [reg_detail.md](/reg_detail.md)  |
-|  Login  |  GET  |  /danweipay  |  单位缴费页  |
+|  Login  |  GET  |  /danweipay  |  单位缴费页 `dwp.html.php`  |
 |  Login  |  POST  |  /danweipay  |  refer [dan_wei_pay_post.md](/dan_wei_pay_post.md)  |
 |  Login  |  GET  |  /danweipay/detail  |  refer [dan_wei_pay_detail.md](/dan_wei_pay_detail.md)  |
-|  Login  |  GET  |  /signin  |  签到页  |
+|  Login  |  GET  |  /signin  |  签到页 `signin.html.php`  |
 |  Login  |  POST  |  /signin  |  refer [signin_post.md](/signin_post.md)  |
-|  Login  |  GET  |  /signin/detail  |  签到详情页,Query Parameter(id:签到id)  |
-|  Login  |  GET  |  /invoice/apply  |  发票申请页  |
+|  Login  |  GET  |  /signin/detail  |  签到详情页,Query Parameter(id:签到id) `signin_detail.html.php`  |
+|  Login  |  GET  |  /invoice/apply  |  发票申请页 `invoice_apply.html.php`  |
 |  Login  |  GET  |  /invoice/apply  |  refer [invoice_apply_post.md](/invoice_apply_post.md)  |
-|  Login  |  GET  |  /invoice/apply/detail  |  发票申请详情页, Query Parameter(id:发票申请id)  |
+|  Login  |  GET  |  /invoice/apply/detail  |  发票申请详情页, Query Parameter(id:发票申请id) `invoice_apply_detail.html.php`  |
 
 # Index
 
