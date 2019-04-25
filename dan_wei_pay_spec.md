@@ -7,8 +7,9 @@
 |  token  |  string  | 缴费票据，缴费凭证 |
 |  classId  |  int  |  班级id  |
 |  uid  |  int  |  user id  |
-|  name  |  string  |  单位名称  |
-|  phone  |  string  |  缴费时留的联系电话号码  |
+|  danWeiName  |  string  |  单位名称  |
+|  contactName  |  string  |  联系人名称  |
+|  contactPhone  |  string  |  联系人电话号码  |
 |  studentCnt  |  int  |  学员人数  |
 |  stayCnt  |  int  |  住宿人数  |
 |  totalFee  |  float  |  总费用  |

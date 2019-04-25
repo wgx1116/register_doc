@@ -11,8 +11,9 @@
 |  参数  |  类型  |  是否必选  |  说明  |
 | :---- | :----: | :----:   | :----  |
 | class | int | 1 | 班级id |
-| phone | string | 1 | 手机号码 |
-| name | string | 1 | 单位名称 |
+| danWeiName | string | 1 | 单位名称 |
+| contactName | string | 1 | 联系人名称 |
+| contactPhone | string | 1 | 联系人电话号码 |
 | studentCnt | int | 1 | 学员人数 |
 | stayCnt | int | 0 | 住宿人数 |
 
@@ -27,8 +28,9 @@
 |  token  |  string  |  1  |  |
 |  classId  |  int  |  1  |  |
 |  uid  |  int  |  1  |  |
-|  name  |  string  |  1  |  |
-|  phone  |  string  |  1  |  |
+|  danWeiName  |  string  |  1  |  |
+|  contactName  |  string  |  1  |  |
+|  contactPhone  |  string  |  1  |  |
 |  studentCnt  |  int  |  1  |  |
 |  stayCnt  |  int  |  1  |  |
 |  totalFee  |  float  |  1  |  |
@@ -39,8 +41,9 @@
 ```
 {
     "class": 20,
-    "phone": "15623967785",
-    "name": "xxx单位",
+    "danWeiName": "xxx单位",
+    "contactName": "15623967785",
+    "contactPhone": "15623967785",
     "studentCnt": 10,
     "stayCnt": 2
 }
@@ -52,17 +55,18 @@
 {
     "code": 200,
     "data": {
-        "createDt": "2019-04-24 12:13:06",
-        "token": "OBTK82K0U6",
+        "createDt": "2019-04-25 22:47:51",
+        "token": "5QG0DZ4X47",
         "classId": 20,
         "uid": 1,
-        "name": "xxx单位",
-        "phone": "15623967785",
+        "danWeiName": "xxx单位",
+        "contactName": "15623967785",
+        "contactPhone": "15623967785",
         "studentCnt": 10,
         "stayCnt": 2,
         "totalFee": 1,
         "payMoney": 0,
-        "id": "5"
+        "id": "10"
     }
 }
 ```
