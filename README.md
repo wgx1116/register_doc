@@ -12,6 +12,9 @@
 |  NONE  |  POST  |  /login  |  refer [login_post.md](/login_post.md)  |
 |  Login  |  DELETE  |  /logout  |  退出  |
 |  Login  |  GET  |  /me  |  我的 页 `me.html.php`  |
+|  Login  |  GET  |  /me/reg/list  |  我的报名记录 页 `my_register_list.html.php`  |
+|  Login  |  GET  |  /me/signin/list  |  我的签到记录 页 `my_signin_list.html.php`  |
+|  Login  |  GET  |  /me/payorder/list  |  我的缴费记录 页 `my_payorder_list.html.php`  |
 |  Login  |  GET  |  /pay  |  refer [pay.md](/pay.md)  |
 |  Login  |  GET  |  /pay/result  |  refer [pay_result.md](/pay_result.md)  |
 |  Login  |  GET  |  /reg  |  报名登记页 `register.html.php` |
