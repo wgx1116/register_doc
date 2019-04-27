@@ -28,7 +28,7 @@
 |  Login  |  GET  |  /signin/detail  |  签到详情页,Query Parameter(id:签到id) `signin_detail.html.php`  |
 |  Login  |  GET  |  /invoice/apply  |  发票申请页 `invoice_apply.html.php`  |
 |  Login  |  POST  |  /invoice/apply  |  refer [invoice_apply_post.md](/invoice_apply_post.md)  |
-|  Login  |  GET  |  /invoice/apply/detail  |  发票申请详情页, Query Parameter(id:发票申请id) `invoice_apply_detail.html.php`  |
+|  Login  |  GET  |  /invoice/apply/detail  |  refer [invoice_apply_detail.md](/invoice_apply_detail.md)  |
 
 # Index
 
@@ -52,4 +52,4 @@
 | [signin_post.md](/signin_post.md) | 提交签到数据 |
 | [invoice_apply_spec.md](/invoice_apply_spec.md) | 发票申请信息字段说明 |
 | [invoice_apply_post.md](/invoice_apply_post.md) | 提交发票申请 |
-
+| [invoice_apply_detail.md](/invoice_apply_detail.md) | 发票申请详情页 |
