@@ -20,6 +20,7 @@
 |  Login  |  GET  |  /reg  |  报名登记页 `register.html.php` |
 |  Login  |  POST  |  /reg  |  refer [reg_post.md](/reg_post.md)  |
 |  Login  |  GET  |  /reg/detail  |  refer [reg_detail.md](/reg_detail.md)  |
+|  Login  |  POST  |  /reg/pay/dwptoken  |  refer [reg_pay_dwp_token.md](/reg_pay_dwp_token.md)  |
 |  Login  |  GET  |  /danweipay  |  单位缴费页 `dwp.html.php`  |
 |  Login  |  POST  |  /danweipay  |  refer [dan_wei_pay_post.md](/dan_wei_pay_post.md)  |
 |  Login  |  GET  |  /danweipay/detail  |  refer [dan_wei_pay_detail.md](/dan_wei_pay_detail.md)  |
@@ -45,6 +46,7 @@
 | [reglog_spec.md](/reglog_spec.md) | 报名信息字段说明 |
 | [reg_post.md](/reg_post.md) | 提交报名数据 |
 | [reg_detail.md](/reg_detail.md) | 报名详情页 |
+| [reg_pay_dwp_token.md](/reg_pay_dwp_token.md) | 使用单位缴费凭证支付 |
 | [dan_wei_pay_spec.md](/dan_wei_pay_spec.md) | 单位缴费信息字段说明 |
 | [dan_wei_pay_post.md](/dan_wei_pay_post.md) | 提交单位缴费订单 |
 | [dan_wei_pay_detail.md](/dan_wei_pay_detail.md) | 单位缴费详情页 |
