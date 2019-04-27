@@ -4,7 +4,7 @@
 
 |  Auth  |  Method  |  url  |
 | :----  | :----:   | :---- |
-|  NONE  |  POST  |  /signin  |
+|  Login  |  POST  |  /signin  |
 
 ## 请求参数
 
