@@ -27,7 +27,7 @@
 |  Login  |  POST  |  /signin  |  refer [signin_post.md](/signin_post.md)  |
 |  Login  |  GET  |  /signin/detail  |  签到详情页,Query Parameter(id:签到id) `signin_detail.html.php`  |
 |  Login  |  GET  |  /invoice/apply  |  发票申请页 `invoice_apply.html.php`  |
-|  Login  |  GET  |  /invoice/apply  |  refer [invoice_apply_post.md](/invoice_apply_post.md)  |
+|  Login  |  POST  |  /invoice/apply  |  refer [invoice_apply_post.md](/invoice_apply_post.md)  |
 |  Login  |  GET  |  /invoice/apply/detail  |  发票申请详情页, Query Parameter(id:发票申请id) `invoice_apply_detail.html.php`  |
 
 # Index
