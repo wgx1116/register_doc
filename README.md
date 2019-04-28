@@ -13,8 +13,11 @@
 |  Login  |  DELETE  |  /logout  |  退出  |
 |  Login  |  GET  |  /me  |  我的 页 `me.html.php`  |
 |  Login  |  GET  |  /me/reg/list  |  我的报名记录 页 `my_register_list.html.php`  |
+|  Login  |  GET  |  /me/reg/listdata  |  我的报名记录 页 `my_register_list.html.php`  |
 |  Login  |  GET  |  /me/signin/list  |  我的签到记录 页 `my_signin_list.html.php`  |
+|  Login  |  GET  |  /me/signin/listdata  |  我的签到记录 页 `my_signin_list.html.php`  |
 |  Login  |  GET  |  /me/payorder/list  |  我的缴费记录 页 `my_payorder_list.html.php`  |
+|  Login  |  GET  |  /me/payorder/listdata  |  我的缴费记录 页 `my_payorder_list.html.php`  |
 |  Login  |  GET  |  /pay  |  refer [pay.md](/pay.md)  |
 |  Login  |  GET  |  /pay/result  |  refer [pay_result.md](/pay_result.md)  |
 |  Login  |  GET  |  /reg  |  报名登记页 `register.html.php` |
@@ -42,6 +45,9 @@
 | [pay_result.md](/pay_result.md) | 支付结果 |
 | [login_sendphonecode.md](/login_sendphonecode.md) | 发送登录手机短信验证码 |
 | [login_post.md](/login_post.md) | 登录 |
+| [my_reg_listdata.md](/my_reg_listdata.md) | 登录 |
+| [my_signin_listdata.md](/my_signin_listdata.md) | 登录 |
+| [my_payorder_listdata.md](/my_payorder_listdata.md) | 登录 |
 | [class_spec.md](/class_spec.md) | 班级信息字段说明 |
 | [reglog_spec.md](/reglog_spec.md) | 报名信息字段说明 |
 | [reg_post.md](/reg_post.md) | 提交报名数据 |
